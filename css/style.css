@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  width: 100%;
+  min-height: 15vh;
+  display: grid;
+  place-items: end;
+  font-size: 30px;
+  border-bottom: 0.1vh solid #000;
+  background: rgb(167, 166, 182);
+}
+
+#menu {
+  margin: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+#menu a:hover {
+  color: #666;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  min-height: 100vh;
+  justify-content: center;
+  display: grid;
+  align-content: center;
+  background: rgb(167, 166, 182);
+  align-items: center;
+}
+
+#conteudo-um img {
+  width: 200px;
+  padding-left: 300px;
+}
+#conteudo-um {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 100px;
+  justify-content: center;
+}
+
+#conteudo p {
+  color: #666;
+}
+
+#conteudo-dois img {
+  width: 200px;
+  padding-left: 500px;
+}
+#conteudo-dois {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-right: 200px;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  min-height: 7vh;
+  background: rgb(167, 166, 182);
+}
+
+#filmes {
+  place-items: right;
+  padding-right: 1510px;
+  place-items: center;
+}
+
+#titulo {
+  padding-left: 700px;
+}
+#titulo1 {
+  display: grid;
+  padding-left: 430px;
+}
